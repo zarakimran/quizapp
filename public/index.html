@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+
+    <fieldset id="FirststFieldset">
+        <h2>Instructions For The Quiz</h2>
+        <h4>
+            <ul>
+                <li>
+                    You have 5 mins to complete this quiz!
+                </li>
+                <li>
+                    Cheating would result in a failiur!
+                </li>
+                <li>
+                    All questions carry eqaul marks!
+                </li>
+                <li>
+                    Press the strat button to start your quiz!
+                </li>
+                <li>
+                    <h1>PLEASE NOTE THAT:</h1> <h3><b>If you don't submit your quiz before the timer ends, you will be marked as <em>absent</em> and will be <em>disqualified!</em></b></h3>
+                </li>
+                
+            </ul>
+        </h4>
+
+       
+
+        
+     <button id="start" class="submit" onclick="start()" >Start My Quiz</button>
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="quizSection">
+
+
+
+
+
+
+
+    <h1> 
+        Chose The Most Suitable Answers!
+    </h1>
+    <h3>
+        Good Luck Folks!
+    </h3>
+
+    
+    <div id="timer">
+        
+        <h1 id="mins">4  </h1>
+        <h1 id="sec">60 </h1>
+        <h1 id="milisec">100 </h1>
+    </div>
+
+    <div>
+        
+        <fieldset>
+            <p>  HTML stands for:</p>
+            
+            <input type="radio" name="html" id="opt1"> <label for="opt1">  Hyper Text Markup Language  </label> <br>
+            <input type="radio" name="html" id="opt2"> <label for="opt2">  Hello To My League  </label>  <br>
+            <input type="radio" name="html" id="opt3"> <label for="opt3">  Hover The Most Ligit  </label> <br>
+            <input type="radio" name="html" id="opt4"> <label for="opt4">  Humour Towards Making Laugh  </label> <br>
+        </fieldset>
+
+    </div>
+<br>
+    <div>
+        
+        <fieldset>
+            <p>CSS stands for:</p>
+
+             
+            <input type="radio" name="css" id="opt5" > <label for="opt5">Cascading Style Sheets</label><br>
+            <input type="radio" name="css" id="opt6"> <label for="opt6">Commisioned Civil Services</label> <br>
+            <input type="radio" name="css" id="opt7"> <label for="opt7">Counter Strike Sourse</label> <br>
+            <input type="radio" name="css" id="opt8"> <label for="opt8">Counter Strike Small</label> <br>
+        </fieldset>
+
+    </div>
+<br>
+    <div>
+        
+        <fieldset>
+            <p>Js stands for:</p>
+            <input type="radio" name="js" id="opt9"> <label for="opt9">Javascript</label> <br>
+            <input type="radio" name="js" id="opt10"> <label for="opt10">JavaStrip</label> <br>
+            <input type="radio" name="js" id="opt11"> <label for="opt11">Join Stamp</label> <br>
+            <input type="radio" name="js" id="opt12"> <label for="opt12">Just Stop</label> <br>
+        </fieldset>
+
+    </div>
+<br>
+    <div>
+        
+        <fieldset>
+            <p>Cpp stands for:</p>
+            <input type="radio" name="cpp" id="opt13"> <label for="opt13">C Plus Plus</label> <br>
+            <input type="radio" name="cpp" id="opt14"> <label for="opt14">Cable Power Point</label> <br>
+            <input type="radio" name="cpp" id="opt15"> <label for="opt15">Cartrage Packing Point</label> <br>
+            <input type="radio" name="cpp" id="opt16"> <label for="opt16">Call President Pussh</label> <br>
+        </fieldset>
+
+    </div>
+
+    <div>
+        
+        <fieldset>
+            <p>C# stands for:</p>
+            <input type="radio" name="cpp" id="opt17"> <label for="opt17">C Sharp</label> <br>
+            <input type="radio" name="cpp" id="opt18"> <label for="opt18">Id of C</label> <br>
+            <input type="radio" name="cpp" id="opt19"> <label for="opt19">Cartrage</label> <br>
+            <input type="radio" name="cpp" id="opt20"> <label for="opt20">Call</label> <br>
+        </fieldset>
+
+    </div>
+
+
+    <button  class="submit" onclick="questionChecker()" >Submit</button>
+
+
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

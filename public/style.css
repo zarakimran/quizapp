@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower';
+    font-size: 25px;
+    background-color: rgba(4, 0, 255, 0.582);
+    text-align: center;
+}
+
+
+#FirststFieldset {
+    text-align: center;   
+}
+
+#FirststFieldset h4{
+    text-align: justify;
+}
+
+fieldset{
+    margin: 20px;
+    border-radius: 25px;
+    border-color: rgb(72, 72, 235);
+    box-shadow: 3px 0px 15px 3px rgb(0, 26, 73);
+    text-align: justify;
+    
+}
+
+fieldset p{
+    font-weight: bolder;
+}
+
+fieldset label:hover{
+    background-color: rgba(67, 64, 255, 0.582);
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(96, 96, 180);
+}
+
+.submit{
+    width: 170px;
+    background-color: rgb(85, 95, 97);
+    font-family: 'Indie Flower';
+    font-size: 20px;
+    border-radius: 12px;
+    border: unset;
+    color: thistle;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px ;
+    display: inline-block;
+    }
+
+.submit:hover{
+    background-color:  rgb(137, 153, 156);
+    color: rgb(59, 45, 59);
+    box-shadow: 1px 1px 10px 1px rgb(0, 12, 179);
+
+}
+
+.submit:focus{
+    outline: unset;
+   
+}
+
+
+/* timer */
+
+#timer h1{
+    
+    
+        display: inline-block;
+        font-family: cursive;
+        background-color: rgb(32, 32, 32);
+        padding: 2px 10px 2px 15px;
+        font-size: 70px;
+        text-align: center;
+        border-radius: 9px;
+        margin: 3px;
+        max-width: 130px;
+        min-width: 130px;
+        color: rgba(7, 100, 250, 0.705);
+    
+    
+    
+}
